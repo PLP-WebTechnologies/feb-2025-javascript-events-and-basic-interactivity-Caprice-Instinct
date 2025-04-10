@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <h2>Form validation</h2>
+    <form id="form1">
+      <label for="username">Username: </label>
+      <input required type="text" name="username" />
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <h2>Modal</h2>
+    <button id="openModal">Open modal</button>
+    <div id="modal" style="display: none">
+      <div id="modalContent">
+        <button id="closeModal">Close Modal</button>
+        <p>You opened the modal!🔓</p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
